@@ -1,0 +1,56 @@
+.wsc-admin-notice {
+  background: #ffffe2;
+  color: #555;
+  border: 4px;
+  display: block;
+  min-height: 68px;
+  padding: 20px 40px 20px 125px;
+  position: relative;
+}
+.wsc-admin-notice a {
+  color: #10738B;
+}
+.wsc-notice-logo {
+  clear: both;
+  content: "";
+  display: block;
+  background-image: url("../img/logo.png");
+  background-size: 77px auto;
+  background-repeat: no-repeat;
+  background-position: 0 45%;
+  width: 125px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+}
+.wsc-admin-notice > .dashicons {
+  color: #424242;
+  position: absolute;
+  right: 20px;
+  top: 40%;
+}
+.wsc-notice-title {
+  font-size: 24px;
+  margin: 0;
+}
+.wsc-notice-body {
+  font-weight: normal;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+}
+.wsc-notice-body:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.wsc-notice-body li {
+  float: left;
+  margin-right: 20px;
+}
+.wsc-notice-body .dashicons {
+  font-size: 17px;
+}
+.wsc-blue {
+  color: #10738B;
+}

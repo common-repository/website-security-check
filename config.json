@@ -1,0 +1,37 @@
+{
+  "blocks": {
+    "block": [
+      {
+        "name": "WSC_Controllers_SecurityCheck",
+        "actions": {
+          "action": [
+            "wsc_securitycheck",
+            "wsc_fixsettings",
+            "wsc_fixconfig",
+            "wsc_securityexclude",
+            "wsc_resetexclude"
+          ]
+        },
+        "admin": "1",
+        "active": "1"
+      },
+      {
+        "name": "WSC_Controllers_Settings",
+        "actions": {
+          "action": [
+            "wsc_connect",
+            "wsc_dont_connect"
+          ]
+        },
+        "admin": "1",
+        "active": "1"
+      },
+      {
+        "name": "WSC_Controllers_Widget",
+        "actions": { "action": "wsc_widget_securitycheck" },
+        "admin": "1",
+        "active": "1"
+      }
+    ]
+  }
+}

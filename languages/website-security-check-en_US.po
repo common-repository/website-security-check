@@ -1,0 +1,1027 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Website Security Check\n"
+"POT-Creation-Date: 2019-02-16 18:47+0200\n"
+"PO-Revision-Date: 2019-02-16 18:47+0200\n"
+"Last-Translator: John Darrel <john@wpplugins.tips>\n"
+"Language-Team: WpPluginsTips <john@wpplugins.tips>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/Error.php:16
+msgid "The home directory is not set!"
+msgstr ""
+
+#: classes/Error.php:20
+msgid "The PHP version has to be greater than 5.13"
+msgstr ""
+
+#: classes/Tools.php:30 classes/Tools.php:34
+#, php-format
+msgid ""
+"Your memory limit is %sM. You need at least %sM to prevent loading errors in "
+"frontend. See: %sIncreasing memory allocated to PHP%s"
+msgstr ""
+
+#: classes/Tools.php:167
+msgid "Documentation"
+msgstr ""
+
+#: classes/Tools.php:168
+msgid "Leave a review"
+msgstr ""
+
+#: classes/Tools.php:183
+msgid "Settings"
+msgstr ""
+
+#: classes/Tools.php:815
+#, php-format
+msgid "CONNECTION ERROR! Make sure your website can access: %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: controllers/Menu.php:48 controllers/Menu.php:81
+msgid "Website Security Check - WPPlugins"
+msgstr ""
+
+#: controllers/Menu.php:69
+msgid "Security Check"
+msgstr ""
+
+#: controllers/SecurityCheck.php:40
+msgid ""
+"You should check your website every week to see if there are any security "
+"changes."
+msgstr ""
+
+#: controllers/SecurityCheck.php:51
+msgid "PHP Version"
+msgstr ""
+
+#: controllers/SecurityCheck.php:55
+msgid ""
+"Using an old version of PHP makes your site slow and prone to hacker attacks "
+"due to known vulnerabilities that exist in versions of PHP that are no "
+"longer maintained. <br /><br />You need <strong>PHP 7.0</strong> or higher "
+"for your website."
+msgstr ""
+
+#: controllers/SecurityCheck.php:56
+msgid ""
+"Email your hosting company and tell them you'd like to switch to a newer "
+"version of PHP or move your site to a better hosting company."
+msgstr ""
+
+#: controllers/SecurityCheck.php:59
+msgid "Mysql Version"
+msgstr ""
+
+#: controllers/SecurityCheck.php:63
+msgid ""
+"Using an old version of MySQL makes your site slow and prone to hacker "
+"attacks due to known vulnerabilities that exist in versions of MySQL that "
+"are no longer maintained. <br /><br />You need <strong>Mysql 5.4</strong> or "
+"higher"
+msgstr ""
+
+#: controllers/SecurityCheck.php:64
+msgid ""
+"Email your hosting company and tell them you'd like to switch to a newer "
+"version of MySQL or move your site to a better hosting company"
+msgstr ""
+
+#: controllers/SecurityCheck.php:67
+msgid "WordPress Version"
+msgstr ""
+
+#: controllers/SecurityCheck.php:71
+#, php-format
+msgid ""
+"You should always update WordPress to the %slatest versions%s. These usually "
+"include the latest security fixes, and don't alter WP in any significant "
+"way. These should be applied as soon as WP releases them. <br /><br />When a "
+"new version of WordPress is available, you will receive an update message on "
+"your WordPress Admin screens. To update WordPress, click the link in this "
+"message."
+msgstr ""
+
+#: controllers/SecurityCheck.php:72
+msgid "There is a newer version of WordPress available ({version})."
+msgstr ""
+
+#: controllers/SecurityCheck.php:75
+msgid "WP Debug Mode"
+msgstr ""
+
+#: controllers/SecurityCheck.php:79
+msgid ""
+"Every good developer should turn on debugging before getting started on a "
+"new plugin or theme. In fact, the WordPress Codex 'highly recommends' that "
+"developers use WP_DEBUG. <br /><br />Unfortunately, many developers forget "
+"the debug mode, even when the website is live. Showing debug logs in the "
+"frontend will let hackers know a lot about your WordPress website."
+msgstr ""
+
+#: controllers/SecurityCheck.php:80
+msgid ""
+"Disable WP_DEBUG for live websites in wp_config.php <code>define('WP_DEBUG', "
+"false);</code>"
+msgstr ""
+
+#: controllers/SecurityCheck.php:84
+msgid "DB Debug Mode"
+msgstr ""
+
+#: controllers/SecurityCheck.php:88
+msgid ""
+"It's not safe to have Database Debug turned on. Make sure you don't use "
+"Database debug on live websites."
+msgstr ""
+
+#: controllers/SecurityCheck.php:89
+#, php-format
+msgid ""
+"Turn off the debug plugins if your website is live. You can add this $wpdb-"
+">hide_errors(); in function.php file%s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:93
+msgid "Script Debug Mode"
+msgstr ""
+
+#: controllers/SecurityCheck.php:97
+msgid ""
+"Every good developer should turn on debugging before getting started on a "
+"new plugin or theme. In fact, the WordPress Codex 'highly recommends' that "
+"developers use SCRIPT_DEBUG. Unfortunately, many developers forget the debug "
+"mode even when the website is live. Showing debug logs in the frontend will "
+"let hackers know a lot about your WordPress website."
+msgstr ""
+
+#: controllers/SecurityCheck.php:98
+msgid ""
+"Disable SCRIPT_DEBUG for live websites in wp_config.php "
+"<code>define('SCRIPT_DEBUG', false);</code>"
+msgstr ""
+
+#: controllers/SecurityCheck.php:102
+msgid "display_errors PHP directive"
+msgstr ""
+
+#: controllers/SecurityCheck.php:106
+msgid ""
+"Displaying any kind of debug info in the frontend is extremely bad. If any "
+"PHP errors happen on your site they should be logged in a safe place and not "
+"displayed to visitors or potential attackers."
+msgstr ""
+
+#: controllers/SecurityCheck.php:107
+msgid "Edit wp_config.php and add <code>ini_set('display_errors', 0);</code>"
+msgstr ""
+
+#: controllers/SecurityCheck.php:110
+msgid "Backend under SSL"
+msgstr ""
+
+#: controllers/SecurityCheck.php:114
+msgid ""
+"SSL is an abbreviation used for Secure Sockets Layers, which are encryption "
+"protocols used on the internet to secure information exchange and provide "
+"certificate information.<br /><br />These certificates provide an assurance "
+"to the user about the identity of the website they are communicating with. "
+"SSL may also be called TLS or Transport Layer Security protocol. <br /><br /"
+">It's important to have a secure connection for the Admin Dashboard in "
+"WordPress."
+msgstr ""
+
+#: controllers/SecurityCheck.php:115
+#, php-format
+msgid "Learn how to set your website as %s. %sClick Here%s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:118
+msgid "User 'admin' as Administrator"
+msgstr ""
+
+#: controllers/SecurityCheck.php:122
+msgid ""
+"In the old days, the default WordPress admin username was 'admin'. Since "
+"usernames make up half of the login credentials, this made it easier for "
+"hackers to launch brute-force attacks. <br /><br />Thankfully, WordPress has "
+"since changed this and now requires you to select a custom username at the "
+"time of installing WordPress."
+msgstr ""
+
+#: controllers/SecurityCheck.php:123
+msgid "Change the user 'admin' with another name to improve security."
+msgstr ""
+
+#: controllers/SecurityCheck.php:126
+msgid "Spammers can easily signup"
+msgstr ""
+
+#: controllers/SecurityCheck.php:130
+msgid ""
+"If you do not have an e-commerce, membership or guest posting website, you "
+"shouldn't let users subscribe to your blog. You will end up with spam "
+"registrations and your website will be filled with spammy content and "
+"comments."
+msgstr ""
+
+#: controllers/SecurityCheck.php:131
+#, php-format
+msgid ""
+"Change the %s/signup path%s using rewrite rules or install a security plugin "
+"and customize the signup path."
+msgstr ""
+
+#: controllers/SecurityCheck.php:134
+msgid "Outdated Plugins"
+msgstr ""
+
+#: controllers/SecurityCheck.php:138
+msgid ""
+"WordPress and its plugins and themes are like any other software installed "
+"on your computer, and like any other application on your devices. "
+"Periodically, developers release updates which provide new features, or fix "
+"known bugs. <br /><br />These new features may not necessarily be something "
+"that you want. In fact, you may be perfectly satisfied with the "
+"functionality you currently have. Nevertheless, you are still likely to be "
+"concerned about bugs.<br /><br />Software bugs can come in many shapes and "
+"sizes. A bug could be very serious, such as preventing users from using a "
+"plugin, or it could be minor and only affect a certain part of a theme, for "
+"example. In some cases, bugs can cause serious security holes. <br /><br /"
+">Keeping plugins up to date is one of the most important and easiest ways to "
+"keep your site secure."
+msgstr ""
+
+#: controllers/SecurityCheck.php:139 controllers/SecurityCheck.php:147
+msgid "Go to the Updates page and update all the plugins to the last version."
+msgstr ""
+
+#: controllers/SecurityCheck.php:142
+msgid "Not Updated Plugins"
+msgstr ""
+
+#: controllers/SecurityCheck.php:146
+msgid ""
+"Plugins that have not been updated in the last 12 months can have real "
+"security problems. Make sure you use updated plugins from WordPress "
+"Directory."
+msgstr ""
+
+#: controllers/SecurityCheck.php:150
+msgid "Version Incompatible Plugins"
+msgstr ""
+
+#: controllers/SecurityCheck.php:154
+msgid ""
+"Plugins that are incompatible with your version of WordPress can have real "
+"security problems. Make sure you use tested plugins from WordPress Directory."
+msgstr ""
+
+#: controllers/SecurityCheck.php:155
+msgid "Make sure you use tested plugins from WordPress Directory."
+msgstr ""
+
+#: controllers/SecurityCheck.php:158
+msgid "Outdated Themes"
+msgstr ""
+
+#: controllers/SecurityCheck.php:162
+msgid ""
+"WordPress and its plugins and themes are like any other software installed "
+"on your computer, and like any other application on your devices. "
+"Periodically developers release updates which provide new features or fix "
+"known bugs. <br /><br />New features may be something that you do not "
+"necessarily want. In fact, you may be perfectly satisfied with the "
+"functionality you currently have. Nevertheless, you may still be concerned "
+"about bugs.<br /><br />Software bugs can come in many shapes and sizes. A "
+"bug could be very serious, such as preventing users from using a plugin, or "
+"it could be a minor bug that only affects a certain part of a theme, for "
+"example. In some cases, bugs can even cause serious security holes.<br /"
+"><br />Keeping themes up to date is one of the most important and easiest "
+"ways to keep your site secure."
+msgstr ""
+
+#: controllers/SecurityCheck.php:163
+msgid "Go to the Updates page and update all the themes to the last version."
+msgstr ""
+
+#: controllers/SecurityCheck.php:166
+msgid "Database Prefix"
+msgstr ""
+
+#: controllers/SecurityCheck.php:170
+msgid ""
+"The WordPress database is like a brain for your entire WordPress site, "
+"because every single bit of information about your site is stored there, "
+"thus making it a hacker’s favorite target. <br /><br />Spammers and hackers "
+"run automated code for SQL injections.<br />Unfortunately, many people "
+"forget to change the database prefix when they install WordPress. <br />This "
+"makes it easier for hackers to plan a mass attack by targeting the default "
+"prefix <strong>wp_</strong>."
+msgstr ""
+
+#: controllers/SecurityCheck.php:171
+#, php-format
+msgid ""
+"Use a custom prefix for database tables to avoid SQL injections. %sRead more"
+"%s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:174
+msgid "Versions in Source Code"
+msgstr ""
+
+#: controllers/SecurityCheck.php:178
+msgid ""
+"WordPress, plugins and themes add their version info to the source code, so "
+"anyone can see it. <br /><br />Hackers can easily find a website with "
+"vulnerable version plugins or themes, and target these with Zero-Day "
+"Exploits."
+msgstr ""
+
+#: controllers/SecurityCheck.php:179
+#, php-format
+msgid ""
+"Add filter to remove WordPress version. Add %sremove_action('wp_head', "
+"'wp_generator');%s in function.php. For all plugins and themes version "
+"removal you can install a security plugin and activate the version remove "
+"option."
+msgstr ""
+
+#: controllers/SecurityCheck.php:182
+msgid "Salts and Security Keys valid"
+msgstr ""
+
+#: controllers/SecurityCheck.php:186
+msgid ""
+"Security keys are used to ensure better encryption of information stored in "
+"the user's cookies and hashed passwords. <br /><br />These make your site "
+"more difficult to hack, access and crack by adding random elements to the "
+"password. You don't have to remember these keys. In fact, once you set them "
+"you'll never see them again. Therefore there's no excuse for not setting "
+"them properly."
+msgstr ""
+
+#: controllers/SecurityCheck.php:187
+msgid ""
+"Security keys are defined in wp-config.php as constants on lines. They "
+"should be as unique and as long as possible. <code>AUTH_KEY,SECURE_AUTH_KEY,"
+"LOGGED_IN_KEY,NONCE_KEY,AUTH_SALT,SECURE_AUTH_SALT,LOGGED_IN_SALT,"
+"NONCE_SALT</code>"
+msgstr ""
+
+#: controllers/SecurityCheck.php:190
+msgid "Security Keys Updated"
+msgstr ""
+
+#: controllers/SecurityCheck.php:194
+msgid ""
+"The security keys in wp-config.php should be renewed as often as possible."
+msgstr ""
+
+#: controllers/SecurityCheck.php:195
+#, php-format
+msgid ""
+"You can generate %snew Keys from here%s <code>AUTH_KEY,SECURE_AUTH_KEY,"
+"LOGGED_IN_KEY,NONCE_KEY,AUTH_SALT,SECURE_AUTH_SALT,LOGGED_IN_SALT,"
+"NONCE_SALT</code>"
+msgstr ""
+
+#: controllers/SecurityCheck.php:198
+msgid "WordPress dDatabase Password"
+msgstr ""
+
+#: controllers/SecurityCheck.php:202
+msgid ""
+"There is no such thing as an \"unimportant password\"! The same goes for "
+"your WordPress database password. <br />Although most servers are configured "
+"so that the database can't be accessed from other hosts (or from outside of "
+"the local network), that doesn't mean your database password should be "
+"\"12345\" or no password at all."
+msgstr ""
+
+#: controllers/SecurityCheck.php:203
+msgid ""
+"Choose a proper database password, at least 8 characters long with a "
+"combination of letters, numbers and special characters. After you change it, "
+"set the new password in the wp_config.php file <code>define('DB_PASSWORD', "
+"'NEW_DB_PASSWORD_GOES_HERE');</code>"
+msgstr ""
+
+#: controllers/SecurityCheck.php:206
+msgid "/wp-content path is accessible"
+msgstr ""
+
+#: controllers/SecurityCheck.php:210
+msgid ""
+"It's important to hide the common WordPress paths to prevent attacks on "
+"vulnerable plugins and themes. <br /> Also, it's important to hide the names "
+"of plugins and themes to make it impossible for bots to detect them."
+msgstr ""
+
+#: controllers/SecurityCheck.php:211
+#, php-format
+msgid ""
+"%sLearn How%s you can change the wp-content, wp-includes manually or "
+"customize all the common paths using a security plugin."
+msgstr ""
+
+#: controllers/SecurityCheck.php:214
+msgid "/wp-login path is accessible"
+msgstr ""
+
+#: controllers/SecurityCheck.php:218
+msgid ""
+"If your site allows user logins, you need your login page to be easy to find "
+"for your users. You also need to do other things to protect against "
+"malicious login attempts. <br /><br />However, obscurity is a valid security "
+"layer when used as part of a comprehensive security strategy, and if you "
+"want to cut down on the number of malicious login attempts. Making your "
+"login page difficult to find is one way to do that."
+msgstr ""
+
+#: controllers/SecurityCheck.php:219
+msgid ""
+"You need to customize /wp-login.php, /wp-login and /wp-admin paths using a "
+"security plugin."
+msgstr ""
+
+#: controllers/SecurityCheck.php:222
+msgid "/wp_config.php file is writable"
+msgstr ""
+
+#: controllers/SecurityCheck.php:226
+msgid ""
+"One of the most important files in your WordPress installation is the wp-"
+"config.php file. <br />This file is located in the root directory of your "
+"WordPress installation, and contains your website's base configuration "
+"details, such as database connection information."
+msgstr ""
+
+#: controllers/SecurityCheck.php:227
+#, php-format
+msgid ""
+"Try setting chmod to %s0400%s or %s0440%s and if the website works normally "
+"that's the best one to use."
+msgstr ""
+
+#: controllers/SecurityCheck.php:230
+msgid "wp-config.php & wp-config-sample.php files are accessible "
+msgstr ""
+
+#: controllers/SecurityCheck.php:234
+msgid ""
+"One of the most important files in your WordPress installation is the wp-"
+"config.php file. <br />This file is located in the root directory of your "
+"WordPress installation and contains your website's base configuration "
+"details, such as database connection information."
+msgstr ""
+
+#: controllers/SecurityCheck.php:235
+#, php-format
+msgid ""
+"Change the permission for %swp-config.php%s files to read only by owner and "
+"delete the file and %swp-config-sample.php%s. %sLearn More%s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:238
+msgid "readme.html file is accessible "
+msgstr ""
+
+#: controllers/SecurityCheck.php:242
+msgid ""
+"It's important to hide or remove the readme.html file because it contains WP "
+"version details."
+msgstr ""
+
+#: controllers/SecurityCheck.php:243
+#, php-format
+msgid ""
+"Rename %sreadme.html%s file or delete it. You need to do this every time you "
+"update WordPress."
+msgstr ""
+
+#: controllers/SecurityCheck.php:246
+msgid "install.php & upgrade.php files are accessible "
+msgstr ""
+
+#: controllers/SecurityCheck.php:250
+msgid ""
+"WordPress is well-known for its ease of installation. <br/>It's important to "
+"hide the wp-admin/install.php and wp-admin/upgrade.php files because there "
+"have already been a couple of security issues regarding these files."
+msgstr ""
+
+#: controllers/SecurityCheck.php:251
+#, php-format
+msgid ""
+"Rename %swp-admin/install.php%s & %swp-admin/upgrade.php%s files or install "
+"a security plugin to disable the access to WordPress core files."
+msgstr ""
+
+#: controllers/SecurityCheck.php:254
+msgid "PHP register_globals is on"
+msgstr ""
+
+#: controllers/SecurityCheck.php:258
+msgid ""
+"This is one of the biggest security issues you can have on your site! If "
+"your hosting company has this directive enabled by default, switch to "
+"another company immediately!"
+msgstr ""
+
+#: controllers/SecurityCheck.php:259
+msgid ""
+"If you have access to php.ini file, set <code>register_globals = off</code> "
+"or contact the hosting company to set it off"
+msgstr ""
+
+#: controllers/SecurityCheck.php:262
+msgid "PHP expose_php is on"
+msgstr ""
+
+#: controllers/SecurityCheck.php:266
+msgid ""
+"Exposing the PHP version will make the job of attacking your site much "
+"easier."
+msgstr ""
+
+#: controllers/SecurityCheck.php:267
+msgid ""
+"If you have access to php.ini file, set <code>expose_php = off</code> or "
+"contact the hosting company to set it off"
+msgstr ""
+
+#: controllers/SecurityCheck.php:270
+msgid "PHP safe_mode is on"
+msgstr ""
+
+#: controllers/SecurityCheck.php:274
+msgid ""
+"PHP safe mode was one of the attempts to solve security problems of shared "
+"web hosting servers. <br /><br />It is still being used by some web hosting "
+"providers, however, nowadays this is regarded as improper. A systematic "
+"approach proves that it’s architecturally incorrect to try solving complex "
+"security issues at the PHP level, rather than at the web server and OS "
+"levels.<br /><br />Technically, safe mode is a PHP directive that restricts "
+"the way some built-in PHP functions operate. The main problem here is "
+"inconsistency. When turned on, PHP safe mode may prevent many legitimate PHP "
+"functions from working correctly. At the same time there exists a variety of "
+"methods to override safe mode limitations using PHP functions that aren’t "
+"restricted, so if a hacker has already got in – safe mode is useless."
+msgstr ""
+
+#: controllers/SecurityCheck.php:275
+msgid ""
+"If you have access to php.ini file, set <code>safe_mode = off</code> or "
+"contact the hosting company to set it off"
+msgstr ""
+
+#: controllers/SecurityCheck.php:278
+msgid "PHP allow_url_include is on"
+msgstr ""
+
+#: controllers/SecurityCheck.php:282
+msgid ""
+"Having this PHP directive enabled will leave your site exposed to cross-site "
+"attacks (XSS). <br /><br />There's absolutely no valid reason to enable this "
+"directive, and using any PHP code that requires it is very risky."
+msgstr ""
+
+#: controllers/SecurityCheck.php:283
+msgid ""
+"If you have access to php.ini file, set <code>allow_url_include = off</code> "
+"or contact the hosting company to set it off"
+msgstr ""
+
+#: controllers/SecurityCheck.php:286
+msgid "Plugins/Themes editor enabled"
+msgstr ""
+
+#: controllers/SecurityCheck.php:290
+msgid ""
+"The plugins and themes file editor is a very convenient tool because it "
+"enables you to make quick changes without the need to use FTP. <br /><br /"
+">Unfortunately, it's also a security issue because it not only shows the PHP "
+"source code, it also enables attackers to inject malicious code into your "
+"site if they manage to gain access to admin."
+msgstr ""
+
+#: controllers/SecurityCheck.php:291
+msgid ""
+"Disable DISALLOW_FILE_EDIT for live websites in wp_config.php "
+"<code>define('DISALLOW_FILE_EDIT', true);</code>"
+msgstr ""
+
+#: controllers/SecurityCheck.php:295
+#, php-format
+msgid "Folder %s is browsable "
+msgstr ""
+
+#: controllers/SecurityCheck.php:299
+msgid ""
+"Allowing anyone to view all files in the Uploads folder with a browser will "
+"allow them to easily download all your uploaded files. It's a security and a "
+"copyright issue."
+msgstr ""
+
+#: controllers/SecurityCheck.php:300
+#, php-format
+msgid "Learn how to disable %sDirectory Browsing%s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:303
+msgid "Windows Live Writer is on "
+msgstr ""
+
+#: controllers/SecurityCheck.php:307
+msgid ""
+"If you're not using Windows Live Writer there's really no valid reason to "
+"have its link in the page header, because this tells the whole world you're "
+"using WordPress."
+msgstr ""
+
+#: controllers/SecurityCheck.php:308
+#, php-format
+msgid ""
+"Add %sremove_action('wp_head', 'wlwmanifest_link');%s in function.php file"
+msgstr ""
+
+#: controllers/SecurityCheck.php:311
+msgid "XML-RPC access is on"
+msgstr ""
+
+#: controllers/SecurityCheck.php:315
+msgid ""
+"WordPress XML-RPC is a specification that aims to standardize communications "
+"between different systems. It uses HTTP as the transport mechanism and XML "
+"as encoding mechanism to enable a wide range of data to be transmitted. <br /"
+"><br />The two biggest assets of the API are its extendibility and its "
+"security. XML-RPC authenticates using basic authentication. It sends the "
+"username and password with each request, which is a big no-no in security "
+"circles."
+msgstr ""
+
+#: controllers/SecurityCheck.php:316
+#, php-format
+msgid ""
+"Add %sadd_filter('xmlrpc_enabled', 'return false');%s in function.php file"
+msgstr ""
+
+#: controllers/SecurityCheck.php:319
+msgid "RDS is visible"
+msgstr ""
+
+#: controllers/SecurityCheck.php:323
+msgid ""
+"If you're not using any Really Simple Discovery services such as pingbacks, "
+"there's no need to advertise that endpoint (link) in the header. Please note "
+"that for most sites this is not a security issue because they \"want to be "
+"discovered\", but if you want to hide the fact that you're using WP, this is "
+"the way to go."
+msgstr ""
+
+#: controllers/SecurityCheck.php:324
+#, php-format
+msgid "Add %sremove_action('wp_head', 'rsd_link');%s in function.php file"
+msgstr ""
+
+#: controllers/SecurityCheck.php:327
+msgid "MySql Grant All Permissions"
+msgstr ""
+
+#: controllers/SecurityCheck.php:331
+msgid ""
+"If an attacker gains access to your wp-config.php file and gets the MySQL "
+"username and password, he'll be able to login to that database and do "
+"whatever that account allows. <br /><br />That's why it's important to keep "
+"the account's privileges to a bare minimum.<br /><br />For instance, if "
+"you're not installing any new plugins or updating WP, that account doesn't "
+"need the CREATE or DROP table privileges.<br /><br />For regular, day-to-day "
+"usage these are the recommended privileges: SELECT, INSERT, UPDATE and "
+"DELETE."
+msgstr ""
+
+#: controllers/SecurityCheck.php:332
+#, php-format
+msgid "To learn how to revoke permissions from PhpMyAdmin %sClick here%s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:335
+msgid "Author URL by ID access"
+msgstr ""
+
+#: controllers/SecurityCheck.php:339
+msgid ""
+"Usernames (unlike passwords) are not secret. By knowing someone's username, "
+"you can't log in to their account. You also need the password. <br /><br /"
+">However, by knowing the username, you are one step closer to logging in "
+"using the username to brute-force the password, or to gain access in a "
+"similar way. <br /><br />That's why it's advisable to keep the list of "
+"usernames private, at least to some degree. By default, by accessing siteurl."
+"com/?author={id} and looping through IDs from 1 you can get a list of "
+"usernames, because WP will redirect you to siteurl.com/author/user/ if the "
+"ID exists in the system."
+msgstr ""
+
+#: controllers/SecurityCheck.php:340
+#, php-format
+msgid ""
+"This option requires multiple settings depending on your server type. You "
+"can fix this with the %sHide My WP Ghost%s plugin."
+msgstr ""
+
+#: controllers/SecurityCheck.php:343
+msgid "Default WordPress Tagline"
+msgstr ""
+
+#: controllers/SecurityCheck.php:347
+msgid ""
+"The WordPress site tagline is a short phrase located under the site title, "
+"similar to a subtitle or advertising slogan. The goal of a tagline is to "
+"convey the essence of your site to visitors. <br /><br />If you don't change "
+"the default tagline it will be very easy to detect that your website was "
+"actually built with WordPress"
+msgstr ""
+
+#: controllers/SecurityCheck.php:348
+#, php-format
+msgid "Change the Tagline in %s > %s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:348
+msgid "General"
+msgstr ""
+
+#: controllers/SecurityCheck.php:348
+msgid "Tagline"
+msgstr ""
+
+#: controllers/SecurityCheck.php:389 controllers/SecurityCheck.php:417
+#: controllers/SecurityCheck.php:442
+msgid "Saved! You can run the test again."
+msgstr ""
+
+#: controllers/SecurityCheck.php:394 controllers/SecurityCheck.php:421
+msgid "Could not fix it. You need to change it yourself."
+msgstr ""
+
+#: controllers/SecurityCheck.php:435
+msgid "Saved! This task will be ignored on future tests."
+msgstr ""
+
+#: controllers/SecurityCheck.php:489 controllers/SecurityCheck.php:506
+#: controllers/SecurityCheck.php:520 controllers/SecurityCheck.php:533
+#: controllers/SecurityCheck.php:545 controllers/SecurityCheck.php:786
+#: controllers/SecurityCheck.php:868 controllers/SecurityCheck.php:884
+#: controllers/SecurityCheck.php:892 controllers/SecurityCheck.php:968
+#: controllers/SecurityCheck.php:981 controllers/SecurityCheck.php:995
+#: controllers/SecurityCheck.php:1008 controllers/SecurityCheck.php:1020
+#: controllers/SecurityCheck.php:1025 controllers/SecurityCheck.php:1050
+#: controllers/SecurityCheck.php:1075 controllers/SecurityCheck.php:1089
+#: controllers/SecurityCheck.php:1103 controllers/SecurityCheck.php:1120
+#: controllers/SecurityCheck.php:1152 controllers/SecurityCheck.php:1174
+#: controllers/SecurityCheck.php:1196 controllers/SecurityCheck.php:1218
+#: controllers/SecurityCheck.php:1232 controllers/SecurityCheck.php:1241
+msgid "Yes"
+msgstr ""
+
+#: controllers/SecurityCheck.php:489 controllers/SecurityCheck.php:506
+#: controllers/SecurityCheck.php:520 controllers/SecurityCheck.php:533
+#: controllers/SecurityCheck.php:545 controllers/SecurityCheck.php:868
+#: controllers/SecurityCheck.php:884 controllers/SecurityCheck.php:892
+#: controllers/SecurityCheck.php:968 controllers/SecurityCheck.php:981
+#: controllers/SecurityCheck.php:995 controllers/SecurityCheck.php:1008
+#: controllers/SecurityCheck.php:1020 controllers/SecurityCheck.php:1045
+#: controllers/SecurityCheck.php:1055 controllers/SecurityCheck.php:1075
+#: controllers/SecurityCheck.php:1089 controllers/SecurityCheck.php:1103
+#: controllers/SecurityCheck.php:1152 controllers/SecurityCheck.php:1174
+#: controllers/SecurityCheck.php:1196 controllers/SecurityCheck.php:1218
+#: controllers/SecurityCheck.php:1232 controllers/SecurityCheck.php:1241
+msgid "No"
+msgstr ""
+
+#: controllers/SecurityCheck.php:614
+#, php-format
+msgid "%s plugin are outdated: %s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:614 controllers/SecurityCheck.php:690
+msgid "All plugins are up to date"
+msgstr ""
+
+#: controllers/SecurityCheck.php:647
+#, php-format
+msgid "%s theme(s) are outdated: %s"
+msgstr ""
+
+#: controllers/SecurityCheck.php:647
+msgid "Themes are up to date"
+msgstr ""
+
+#: controllers/SecurityCheck.php:726
+msgid "All plugins are compatible"
+msgstr ""
+
+#: controllers/SecurityCheck.php:807
+#, php-format
+msgid "%s days since last update"
+msgstr ""
+
+#: controllers/SecurityCheck.php:807
+msgid "Updated"
+msgstr ""
+
+#: controllers/SecurityCheck.php:824
+msgid "Empty"
+msgstr ""
+
+#: controllers/SecurityCheck.php:829
+msgid "only "
+msgstr ""
+
+#: controllers/SecurityCheck.php:834
+msgid "too simple"
+msgstr ""
+
+#: controllers/SecurityCheck.php:839
+msgid "Good"
+msgstr ""
+
+#: controllers/SecurityCheck.php:886
+msgid ""
+"Change the wp-config.php file permission to Read-Only using File Manager."
+msgstr ""
+
+#: controllers/SecurityCheck.php:1128
+msgid "no"
+msgstr ""
+
+#: controllers/SecurityCheck.php:1238
+msgid "Just another WordPress site"
+msgstr ""
+
+#: controllers/Settings.php:27
+#, php-format
+msgid ""
+"Protect your website with %sHide My WP Ghost%s plugin. %sDownload it now%s"
+msgstr ""
+
+#: controllers/Settings.php:64
+msgid ""
+"ERROR! Please make sure you use a valid token to connect the plugin with "
+"WPPlugins"
+msgstr ""
+
+#: controllers/Settings.php:69
+msgid ""
+"ERROR! Please make sure you use an email address to connect the plugin with "
+"WPPlugins"
+msgstr ""
+
+#: index.php:33
+#, php-format
+msgid "For %s to work, the PHP version has to be equal or greater then 5.3"
+msgstr ""
+
+#: view/Connect.php:11
+msgid "Activate the Plugin"
+msgstr ""
+
+#: view/Connect.php:16
+msgid "Email Address"
+msgstr ""
+
+#: view/Connect.php:17
+msgid "Enter your email address, connect to WPPlugins and get a free Token"
+msgstr ""
+
+#: view/Connect.php:29
+msgid "I have a token already"
+msgstr ""
+
+#: view/Connect.php:33
+msgid "Enter the Token"
+msgstr ""
+
+#: view/Connect.php:34
+#, php-format
+msgid "Enter the Token from your %sWPPlugins account%s "
+msgstr ""
+
+#: view/Connect.php:46
+msgid "Activate"
+msgstr ""
+
+#: view/Connect.php:54
+msgid "Activate Plugin"
+msgstr ""
+
+#: view/Connect.php:56
+#, php-format
+msgid ""
+"By activating the plugin you agree with our %sTerms of Use%s and %sPrivacy "
+"Policy%s"
+msgstr ""
+
+#: view/Connect.php:59
+msgid ""
+"Note! If you add your email you will receive a free token which will "
+"activate the plugin."
+msgstr ""
+
+#: view/SecurityCheck.php:5
+msgid "Website Security Check"
+msgstr ""
+
+#: view/SecurityCheck.php:17
+msgid "Start Scan"
+msgstr ""
+
+#: view/SecurityCheck.php:21
+msgid "Last check:"
+msgstr ""
+
+#: view/SecurityCheck.php:36
+msgid "Passed"
+msgstr ""
+
+#: view/SecurityCheck.php:37
+msgid "Failed"
+msgstr ""
+
+#: view/SecurityCheck.php:43
+msgid ""
+"Congratulations! You completed all the security tasks. Make sure you check "
+"your site once a week."
+msgstr ""
+
+#: view/SecurityCheck.php:48
+#, php-format
+msgid ""
+"Note! Try to complete all the tasks below and see it represents a real "
+"security issue for your site. <br />According to %sGoogle latest stats%s, "
+"over 20k websites are hacked every week and over 30&#37; of them are made in "
+"WordPress. <br />It's better to prevent an attack than to spend a lot of "
+"money and time to recover your data after an attack not to mention the "
+"situation when your clients' data are stollen."
+msgstr ""
+
+#: view/SecurityCheck.php:59
+msgid "Name"
+msgstr ""
+
+#: view/SecurityCheck.php:60
+msgid "Value"
+msgstr ""
+
+#: view/SecurityCheck.php:61
+msgid "Valid"
+msgstr ""
+
+#: view/SecurityCheck.php:62
+msgid "Action"
+msgstr ""
+
+#: view/SecurityCheck.php:87
+msgid "Solution"
+msgstr ""
+
+#: view/SecurityCheck.php:88
+msgid "Fix it"
+msgstr ""
+
+#: view/SecurityCheck.php:89
+msgid "Are you sure you want to ignore this task in the future?"
+msgstr ""
+
+#: view/SecurityCheck.php:102
+msgid "Reset all ingnored tasks"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Detect if Your Website has WordPress Vulnerabilities"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPPlugins - WordPress Security Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpplugins.tips"
+msgstr ""
